@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -101,10 +102,11 @@ span {
     grid-template-columns: repeat(10, 1fr);
     width: 100vw; 
     align-items: center;
+    overflow-x:hidden
 }
 
 .about img {
-    width: 100%;
+    width: 96%;
     grid-column: 1/5;
 }
 
@@ -129,3 +131,4 @@ span {
 .about p {
     margin-bottom: 1em;
 }
+
